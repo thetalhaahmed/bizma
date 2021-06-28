@@ -1,144 +1,259 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>BIZMA - REGISTRATION</title>
-	<link rel="stylesheet" type="text/css" href="css/bizma-style.css">
-	<meta name="viewport" content="width=device-width, initialscale=
-1">
-</head>
-<body>
-<header>
-<div class="container mob-menu-float">
+  <head>
+    <title>BIZMA - REGISTRATION</title>
+    <link rel="stylesheet" type="text/css" href="css/bizma-style.css" />
+    <meta
+      name="viewport"
+      content="width=device-width, initialscale=
+1"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container mob-menu-float">
+        <a href="index.html" id="logo"><h1>Your Business Manager</h1></a>
+        <p>YOUR BUSINESS MANAGEMENT</p>
+      </div>
+      <input type="checkbox" id="mob-menu-btn" />
+      <label id="menu-label" for="mob-menu-btn"></label>
+      <div class="clearall"></div>
+      <nav>
+        <ul>
+          <li><a href="features.html">Features</a></li>
+          <li><a href="registration.html">Registration</a></li>
+          <li><a href="plans.html">Plans</a></li>
+          <li><a href="news.html">News</a></li>
+          <li><a href="loans.html">Loans</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <img
+        src="graphics/banner-registration.jpg"
+        class="banner-responsive"
+        alt="Main Banner"
+      />
+      <div class="container">
+        <span id="breadcrumbs"
+          ><a href="index.html">Home</a> &gt; Registration</span
+        >
+        <h2 class="heading">REGISTER AT BIZMA</h2>
+        <article>
+          <form class="review-box">
+            <h3 class="heading">Personal Details</h3>
+            <p>First Name</p>
+            <input
+              class="input-fields"
+              type="text"
+              name="fname"
+              placeholder="Your First Name"
+              pattern="[A-Za-z]{1,20}"
+              required
+            />
+            <p>Last Name</p>
+            <input
+              class="input-fields"
+              pattern="[A-Za-z]{1,20}"
+              type="text"
+              name="lname"
+              placeholder="Your Last Name"
+              required
+            />
+            <p>Email</p>
+            <input
+              class="input-fields"
+              placeholder="Your Email"
+              type="email"
+              name="email"
+              required
+            />
+            <p>Contact Number</p>
+            <input
+              class="input-fields"
+              type="text"
+              name="num"
+              placeholder="Number"
+              required
+              maxlength="11"
+              minlength="10"
+              pattern="[0-9]*"
+            />
+            <p>Select City</p>
+            <select class="select-box">
+              <optgroup label="Punjab">
+                <option>RawalPindi</option>
+                <option>Lahore</option>
+                <option>Faisalabad</option>
+              </optgroup>
+              <optgroup label="Sindh">
+                <option>Karachi</option>
+                <option>Hyderabad</option>
+              </optgroup>
+              <optgroup label="Baloachistan">
+                <option>Quetta</option>
+                <option>Gawadar</option>
+              </optgroup>
+              <optgroup label="Khyber PakhtunKhwa">
+                <option>Peshawar</option>
+                <option>Sawat</option>
+              </optgroup>
+            </select>
 
-<a href="index.html" id="logo"><h1>Your Business Manager</h1></a>
-<p>YOUR BUSINESS MANAGEMENT</p>
-</div>
-<input type="checkbox" id="mob-menu-btn"/>
-<label id="menu-label" for="mob-menu-btn"></label>
-<div class="clearall"></div>
-<nav>
-	<ul>
-		<li><a href="features.html">Features</a></li>
-		<li><a href="registration.html">Registration</a></li>
-		<li><a href="plans.html">Plans</a></li>
-		<li><a href="news.html">News</a></li>
-		<li><a href="loans.html">Loans</a></li>
-		<li><a href="contact.html">Contact</a></li>
-	</ul>
-	
-</nav>
-</header>
-<main>
-<img src="graphics/banner-registration.jpg" class="banner-responsive" alt="Main Banner"/>
-<div class="container">
-<span id = "breadcrumbs"><a href="index.html">Home</a> &gt; Registration</span>
-<h2 class="heading">REGISTER AT BIZMA</h2>
-<article>
-	<form class="review-box">
-	<h3 class="heading">Personal Details</h3>
-	<p>First Name</p><input class="input-fields" type="text" name="fname" placeholder="Your First Name" pattern="[A-Za-z]{1,20}" required>
-	<p>Last Name</p><input class="input-fields" pattern="[A-Za-z]{1,20}" type="text" name="lname" placeholder="Your Last Name" required>
-	<p>Email</p><input class="input-fields" placeholder="Your Email" type="email" name="email" required>
-	<p>Contact Number</p><input class="input-fields" type="text" name="num" placeholder="Number" required maxlength="11"
-	minlength="10"  pattern="[0-9]*">
-	<p>Select City</p><select class="select-box">
-  <optgroup label="Punjab">
-    <option >RawalPindi</option>
-    <option >Lahore</option>
-    <option>Faisalabad</option>
-  </optgroup>
-  <optgroup label="Sindh">
-    <option >Karachi</option>
-    <option >Hyderabad</option>
-  </optgroup>
-  <optgroup label="Baloachistan">
-    <option >Quetta</option>
-    <option >Gawadar</option>
-  </optgroup>
-    <optgroup label="Khyber PakhtunKhwa">
-    <option>Peshawar</option>
-    <option>Sawat</option>
-  </optgroup>
-</select>
+            <h3 class="heading">Organization Details</h3>
+            <p>Organization Name</p>
+            <input
+              class="input-fields"
+              type="text"
+              placeholder="Organization"
+              pattern="[A-Za-z]{1,20}"
+              name="orgname"
+              required
+            />
+            <h2>Year of establishment</h2>
+            <select class="select-box">
+              <option>2017</option>
+              <option>2016</option>
+              <option>2015</option>
+              <option>2014</option>
+              <option>2013</option>
+              <option>2012</option>
+              <option>2011</option>
+            </select>
+            <div id="radio-btn-box">
+              <p>Are You ?</p>
+              <table>
+                <tr>
+                  <td>Young Startup</td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="radio"
+                      class="radio-btn"
+                      name="radio-btn"
+                      required
+                    />
+                  </td>
+                </tr>
+                <tr>
+                  <td>Established Oraganization</td>
+                </tr>
+                <tr>
+                  <td>
+                    <input
+                      type="radio"
+                      class="radio-btn"
+                      name="radio-btn"
+                      required
+                    />
+                  </td>
+                </tr>
+              </table>
+            </div>
 
-	<h3 class="heading">Organization Details</h3>
-	<p>Organization Name</p><input class="input-fields" type="text" placeholder="Organization" pattern="[A-Za-z]{1,20}" name="orgname" required>
-	<h2>Year of establishment</h2>
-	<select class="select-box">
-		<option>2017</option>
-		<option>2016</option>
-		<option>2015</option>
-		<option>2014</option>
-		<option>2013</option>
-		<option>2012</option>
-		<option>2011</option>
-	</select>
-	<div id="radio-btn-box">
-	<p>Are You ?</p>
-	<table>
-		<tr><td>Young Startup</td></tr>
-		<tr><td><input type="radio" class="radio-btn" name="radio-btn" required/></td></tr>
-		<tr><td>Established Oraganization</td></tr>
-		<tr><td><input type="radio" class="radio-btn" name="radio-btn" required/></td></tr>
-	</table>
-	</div>
+            <p>NTN Number</p>
+            <input
+              class="input-fields"
+              maxlength="9"
+              pattern="[0-9]{9}"
+              type="text"
+              placeholder="-------"
+              name="NTN"
+              required
+            /><br />
 
-	<p>NTN Number</p><input class="input-fields" maxlength="9" pattern="[0-9]{9}" type="text" placeholder="-------" name="NTN" required><br>
+            <p class="text">I confirm that all entered details are correct</p>
+            <input type="checkbox" class="radio-btn" name="confirm" required />
+            <br /><br />
+            <input type="submit" value="Register" name="submit" />
+          </form>
+        </article>
+        <section id="register-info">
+          <h2 class="heading">Tips For Registration</h2>
+          <ol>
+            <li>Fill the correct details</li>
+            <li>Have your documents along with you</li>
+            <li>Double check your contact details</li>
+            <li>We will send you a email of confirmation</li>
+          </ol>
+        </section>
+      </div>
+    </main>
+    <footer>
+      <div class="container">
+        <div class="footer-info">
+          <h1>Disclaimer</h1>
+          <p>
+            The investments and services offered by us may not be suitable for
+            all investors. If you have any doubts as to the merits of an
+            investment, you should seek advice from an independent financial
+            advisor.
+          </p>
+          <h1>Couldn't find the right thing?</h1>
+          <ul>
+            <li>
+              <a href="features.html"
+                >Check out our <strong>Features</strong>!</a
+              >
+            </li>
+            <li>
+              <a href="registration.html"><strong>Register</strong> Today!</a>
+            </li>
+            <li>
+              <a href="loans.html">Check out <strong>Loan</strong> schemes!</a>
+            </li>
+            <li>
+              <a href="plans.html">Choose the right <strong>Plan!</strong></a>
+            </li>
+          </ul>
+          <h1>Find Us?</h1>
+          <ul>
+            <li>Plot 14, Street 9,</li>
+            <li>DHA Phase 4,</li>
+            <li>Islamabad, Pakistan</li>
+            <li>Consultancy Hours : 9am-7pm</li>
+          </ul>
+        </div>
 
-	<p class="text">I confirm that all entered details are correct</p>
-	<input type="checkbox" class="radio-btn" name="confirm" required>
-	<br><br>
-	<input type="submit" value="Register" name="submit">
-</form>
-</article>
-<section id="register-info">
-<h2 class="heading">Tips For Registration</h2>
-	<ol>
-		<li>Fill the correct details</li>
-		<li>Have your documents along with you</li>
-		<li>Double check your contact details</li>
-		<li>We will send you a email of confirmation</li>
-	</ol>
-</section>
-</div>
-</main>
-<footer>
-<div class="container">
-<div class="footer-info">
-<h1>Disclaimer</h1>
-<p >The investments and services offered by us may not be suitable for all investors. If you have any doubts as to the merits of an investment, you should seek advice from an independent financial advisor.
-</p>
-	<h1>Couldn't find the right thing?</h1>
-	<ul>
-	<li><a href="features.html">Check out our <strong>Features</strong>!</a></li>
-		<li><a href="registration.html"><strong>Register</strong> Today!</a></li>
-		<li><a href="loans.html">Check out <strong>Loan</strong> schemes!</a></li>
-		<li><a href="plans.html">Choose the right <strong>Plan!</strong></a></li>
-	</ul>
-<h1>Find Us?</h1>
-<ul>
-	<li>Plot 14, Street 9,</li>
-	<li>DHA Phase 4,</li>
-	<li>Islamabad, Pakistan</li>
-	<li>Consultancy Hours : 9am-7pm</li>
-</ul>
-</div>
+        <div class="social-logos">
+          <h2>We're Social</h2>
+          <a href="https://pk.linkedin.com/" target="_blank"
+            ><img
+              src="graphics/social-1.png"
+              width="48"
+              height="48"
+              alt="inicon"
+          /></a>
 
-<div class="social-logos">
-	<h2 >We're Social</h2>
-	<a href="https://pk.linkedin.com/" target="_blank"><img src="graphics/social-1.png" width="48" height="48" alt="inicon"></a>
+          <a href="https://www.facebook.com/" target="_blank"
+            ><img
+              src="graphics/social-2.png"
+              width="48"
+              height="48"
+              alt="fbicon"
+          /></a>
 
-	<a href="https://www.facebook.com/"  target="_blank"><img src="graphics/social-2.png" width="48" height="48" alt="fbicon"></a>
+          <a href="https://plus.google.com/" target="_blank"
+            ><img
+              src="graphics/social-3.png"
+              width="48"
+              height="48"
+              alt="gooicon"
+          /></a>
 
-	<a href="https://plus.google.com/"  target="_blank"><img src="graphics/social-3.png" width="48" height="48" alt="gooicon"></a>
+          <a href="https://twitter.com/" target="_blank"
+            ><img
+              src="graphics/social-4.png"
+              width="48"
+              height="48"
+              alt="twittericon" /></a
+          ><br />
 
-	<a href="https://twitter.com/"  target="_blank"><img src="graphics/social-4.png" width="48" height="48" alt="twittericon"></a><br>
-
-<span>&copy; BIZMA Copyrights 2017 All rights reserved</span>
-</div>
-
-</div>
-
-</footer>
-</body>
+          <span>&copy; BIZMA Copyrights 2021 All rights reserved</span>
+        </div>
+      </div>
+    </footer>
+  </body>
 </html>
