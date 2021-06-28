@@ -1,0 +1,1975 @@
+@font-face
+	{
+		font-family: Raleway;
+		src: url("../fonts/raleway/raleway-regular.ttf");
+	}
+
+body
+	{
+		box-sizing: border-box;
+		margin: 0;
+		padding: 0;
+		background-color:#fff;
+		font-family: Raleway;
+		background-color: #fff;
+	}
+
+	/*>>>>>>>>>>>>>>>>>>>>>>>>>>>INSURANCE PAGE STARTS<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+		#insurance-aside ~ article
+		{
+			padding: 0;
+			margin: 0 auto;
+			width: 100%;
+			text-align: center;
+		}
+
+		#insurance-aside ~ article div
+		{
+			padding: 2px;
+			color: #659cb3;
+			width: 45%;
+			margin: 2px;
+			display: inline-block;	
+		}
+
+		#insurance-aside ~ article div p
+		{
+			font-size: 15px;
+		}
+
+		#insurance-aside ~ article div img
+		{
+			width: 80%;
+			height: auto;
+		}
+
+		#insurance-mainbox .text, aside .text
+		{
+			font-size: 15px;
+			text-align: left;
+		}
+
+		#insurance-aside
+		{
+			text-align: center;
+			border:1px solid #296681;
+			padding: 5px; 
+		}
+
+		#insurance-aside h3
+		{
+			color: #659cb3;
+		}
+
+		#insurance-mainbox h3
+		{
+			color: #296681;
+		}
+
+		#insurance-aside div a
+		{
+			padding:3px;
+			background-color: unset;
+		    font-size: 18px;
+		    color: #659cb3;
+		    text-align: center;
+		    text-decoration: none;
+		}
+
+		#insurance-mainbox
+		{
+			background-color: rgba(202, 227, 238,0.3);
+		}
+	/*>>>>>>>>>>>>>>>>>>>>>>>>>>>INSURANCE PAGE ENDS<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+	/*>>>>>>>>>>>>>>>>>>>>.STARTUP LOANS START<<<<<<<<<<<<<<<<<<<<*/
+	#srtloans-banner
+	{
+		color: #000;
+		width: 90%;
+		background: url("../graphics/startup-bannercontent.jpg") top center no-repeat;
+	}
+
+	#srtloans-banner #srt-textbox
+	{
+		font-weight: bold;
+		text-align: left;
+		margin: 0 auto;
+		width: 95%;
+		background-color: #fff;
+		opacity: 0.8;
+		padding: 3px;
+	}
+
+	#srt-contentbox .startup-features
+	{
+		list-style-type: circle;
+	}
+
+	#srt-contentbox .startup-features li
+	{
+		line-height: 2em;
+	}
+
+	#srt-contentbox h3
+	{
+		font-size: 20px;
+		color:#659cb3;
+	}
+
+	.srtpage-infobox
+	{
+		text-align: center;
+	}
+
+	#srt-contentbox
+	{
+		padding: 5px;
+	}
+
+	#srt-textbox h2
+	{	
+		font-size: 25px;
+	}
+
+	#srt-textbox p
+	{
+		font-size: 20px;
+	}
+
+	#srtpage-bottom
+	{
+		text-align: center;
+		margin: 10px auto;
+	}
+
+	#srtpage-bottom a
+	{
+		background-color: #659cb3;
+	    padding: 5px;
+	    margin: 0 auto;
+	    border: none;
+	    font-size: 15px;
+	    color: #fff;
+	    text-align: center;
+	    text-decoration: none;
+	}
+	
+	/*>>>>>>>>>>>>>>>>>>>STARTUP LOANS END<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+	/*>>>>>>>>>>>>>>>>>>>>>>PARTNERS PAGE STARTS<<<<<<<<<<<<<<<<<<<<<<<*/
+
+	.partners-introbox p 
+	{
+		text-align: center;
+	}
+
+	#partners-banner
+	{
+		background: -webkit-linear-gradient(left, #659cb3, #659cb3 50%, #296681 50%, #296681);
+		margin-bottom: 10px;
+		box-sizing: border-box;
+		width: 80%;
+		color: #fff;
+		background-color: #296681;
+		text-align: center;
+	}
+
+	#partners-banner h2
+	{
+		font-size: 20px;
+	}
+
+	.partners-box .bar-text
+	{
+		
+		color: #fff;
+		padding: 1px;
+		font-size:15px;
+		opacity: 0.7;
+		background-color: #296681;
+	}
+
+	.partners-box .partners-img
+	{
+		width:60%;
+		height: auto;
+	}
+
+	.partners-box
+	{
+		text-align: center;
+		box-sizing: border-box;
+		border: 2px solid #296681;
+		margin: 10px auto;
+		width: 80%;
+		border-radius: 3px;
+	}
+
+	/*>>>>>>>>>>>>>>>>>>>>>>PARTNERS PAGE ENDS<<<<<<<<<<<<<<<<<<<<<<<*/
+
+	/*>>>>>>>>>>>>>>>>>>>>>>>MONEY TRANSFER STARTS<<<<<<<<<<<<<<<<<<<<<*/
+	
+	#moneytransfer-body
+	{
+		text-align: center;
+	}
+
+	#moneytransfer-options
+	{	text-align: center;
+		padding: 3px;
+	}
+
+	#moneytransfer-options table
+	{
+		margin-bottom: 20px;
+	}
+
+	#moneytransfer-options p
+	{
+		text-align: left;
+		font-size: 18px;
+	}
+
+	#moneytransfer-options h2
+	{
+		text-align: left;
+		color: #659cb3;
+	}
+
+	.moneytransfer-box
+	{
+		border:1px solid #000;
+		border-radius: 30px 10px 10px 0px;
+		box-shadow: 5px 5px 5px 0px rgba(0,0,0,0.75);
+		margin: 10px auto;
+		text-align: center;
+		padding: 5px;
+		display: block;
+		width: 60%;
+		font-size: 15px;	
+		display:block;
+		padding: 3px;
+		background-color:rgba(202, 227, 238,0.3); 
+	}
+
+	.moneytransfer-details
+	{	
+		margin-bottom: 4px;
+		display: block;
+		border-top: 4px solid #659cb3;
+		border-style: solid;
+		border-color: #659cb3;
+    	border-width: 4px 1px 1px 1px;
+	}
+
+		.moneytransfer-box h2
+	{
+		color: #296681;
+		font-size: 20px;
+	}
+
+	/*>>>>>>>>>>>>>>>>>>>>>>>MONEY TRANSFER ENDS<<<<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>>MENTORING PAGE STARTS<<<<<<<<<<<<<<<<<<<<*/
+	#mentoring-intro
+	{
+		font-size: 25px;
+	}
+
+	#search-mentor
+	{
+		box-sizing: border-box;
+		background-color: rgba(202, 227, 238,0.3);
+		padding: 2px;
+		margin: 10px auto;	
+		width: 100%;
+		border:2px dashed #296681;
+	}
+
+	.mentoring-topcontent
+	{
+		padding: 3px;
+		color: #fff;
+		background-color: #659cb3;
+		width: 100%;
+		text-align: center;
+		height: 40%;
+		box-sizing: border-box;
+	}
+
+	.mentoring-facts p
+	{
+		font-size: 18px;
+	}
+	
+
+	.mentoring-facts
+	{	
+		border-bottom: 1px solid #296681;
+		margin: 0 auto;
+		width:80%;
+	}
+
+	.mentoring-facts h2
+	{	
+		color:#296681;
+		font-size: 35px;
+	}
+
+	.mentoring-roundbox
+	{ 
+		color:#296681;
+		margin: 0 auto;
+		width: 25%;
+	}
+
+	.mentoring-roundbox h3
+	{
+		font-size: 40px;
+	}
+
+	.mentoring-topcontent #mentoring-intro strong
+	{
+		color: #000;
+	}
+
+	#mentoring-steps
+	{
+		color:#659cb3; 
+		border: 3px solid #659cb3;
+		margin: 10px auto;
+	}
+
+	#mentoring-steps li 
+	{
+		font-size: 17px;
+	}
+
+	#mentoring-steps ~ article
+	{
+		text-align: center;
+	}
+
+	#mentoring-bannertext
+	{
+		margin: 0 auto;
+		width: 70%;
+		padding: 2px;
+	}
+
+	#mentoring-steps ~ article img
+	{
+		border:1px dashed #000;
+		border-radius: 50%;
+		width: 15%;
+		height: auto;
+	}
+/*>>>>>>>>>>>>>>>>>>MENTORING PAGE ENDS<<<<<<<<<<<<<<<<<<<<*/
+
+/*>>>>>>>>>>>>>>>>>NEWSPAGE PAGE<<<<<<<<<<<<<<<<<*/
+	.datebox
+	{	
+		text-align: center;
+		color: #fff;
+		width:18%;
+		font-size: 13px;	
+		height: auto;
+		padding: 1px; 
+		background-color: #296681;
+		border:3px solid #000;
+	}
+
+	#newspage-box
+	{
+		box-sizing: border-box;
+		text-align: center;
+		padding: 2px;
+	}
+
+	#newspage-box img
+	{
+		width:70%;
+		height: auto;
+	}
+/*>>>>>>>>>>>>>>>>>NEWSPAGE END<<<<<<<<<<<<<<<<<*/
+
+	/*>>>>>>>>>>>>>>>>>>>>>Plans Page Start<<<<<<<<<<<<<<<<<<*/
+	
+	#link-btn
+	{
+		border-radius: 50px;
+		text-align: center;
+		width: 30%;
+		padding: 2px;
+		margin: 10px auto;
+		border:1px solid #659cb3;
+	}
+
+	#link-btn a
+	{
+		text-decoration: none;
+		color: #659cb3;
+	}
+
+
+	.planpage-box
+	{
+		background-color: rgba(202, 227, 238,0.3);
+		padding: 3px;
+		text-align: center;
+	}
+
+	#planspage-clientsbox img
+	{
+		width: 20%;
+		height: auto;
+		border-radius: 100%;
+	}
+
+	#planspage-clientsbox
+	{
+		text-align: center;
+	}
+	/*>>>>>>>>>>>>>>>>>>>>>Plans Page Ends<<<<<<<<<<<<<<<<<<*/
+
+/*****************FEATURE PAGE CONTENTS******************/
+	.featurepage-box
+	{
+		text-align: center;
+		box-sizing: border-box;
+		margin: 0 auto;
+	}
+
+	.featurepage-box img
+	{
+		width: 70%;
+		height: auto;
+	}
+
+	.featurepage-submenus
+	{
+		width: 80%;
+		text-decoration: underline;
+		text-align: center;
+		margin: 0 auto;
+		border:1px dotted #000;
+	}
+	
+	.featurepage-submenus a
+	{
+		text-decoration: none;
+		color: #154360;
+	}
+
+	#featurepage-description
+	{
+		text-align: center;
+	}
+
+		#featurepage-description p h2
+	{
+		color: #659cb3;
+	}
+
+	.featurepage-smallboxes
+	{
+		box-sizing: border-box;
+		margin: 0 auto;
+		width: 30%;
+		padding: 2px;
+		text-align: center;
+		display: inline-block;
+	}
+
+	.featurepage-smallboxes h3
+	{
+		font-size: 15px;
+	}
+
+	#featurepage-boxalign
+	{
+
+		text-align: center;
+		margin: 20px auto;
+	}
+
+/************FEATURE PAGE CONTENTS ENDS***************/
+
+/*>>>>>>>>>>LOAN PAGE STARTS<<<<<<<<<<<<<<<*/
+
+
+#loanpage-body a
+	{
+		color: #fff;
+		text-decoration: none;
+	}
+
+	#loanpage-body a
+	{
+		background-color: #659cb3;
+		padding: 5px;
+		margin: 0;
+		border:none;
+		font-size: 15px;
+	}
+
+
+
+	.loanpage-contentbox h3
+	{
+		margin: 0 auto;
+		width: 100%;
+		font-size: 18px;
+		text-align: center;
+		color: #fff;
+		background-color: #154360;
+	}
+
+	.loanpage-contentbox
+	{
+		box-sizing: border-box;
+		padding: 5px;
+		font-size: 17px;
+		display: block;
+		width: 100%;
+		height: 50%;
+		color:#fff;
+		background-color: #659cb3;
+	}
+
+	#loanpage-body
+	{
+		text-align: center;
+		margin: 0 auto;
+	}
+
+	#loanpage-body img
+	{
+		width: 100%;
+		height: auto;
+	}
+
+	/*>>>>>>>>>>LOAN PAGE ENDS<<<<<<<<<<<<<<<*/
+
+.text
+{
+	font-size: 17px;
+}
+
+.announcement
+{
+	margin: 0 auto;
+	padding: 2%;
+	color: #fff;
+	background-color: #154360;
+	width:80%;
+	text-align: center;
+	border:5px dashed #FFC300;
+}
+
+.announcement  a 
+{	
+	box-sizing: border-box;
+	border:1px solid #fff;
+	border-radius: 3px;
+	width: 200px;
+	height: 40px;
+	font-size: 15px;
+	color: #fff;
+	text-decoration: none;
+}
+
+form #radio-btn-box
+{
+	margin:20px auto;
+	width: 30%;
+	padding: 2px;
+}
+
+
+.container article
+{
+	border-top: 1px solid #659cb3;	
+	margin: 0 auto;
+	padding: 2%;
+}
+
+header p
+{
+	font-size: 10px;
+	text-align: center;
+	margin-left: 10px;
+}
+
+.heading
+{
+	color: #659cb3;
+	font-size:20px;
+	text-align: center;
+}
+
+.review-box
+{
+	background-color: rgba(202, 227, 238,0.3);
+	text-align: center;
+	border-radius: 15px;
+}
+
+article table 
+{
+
+	padding: 2%;
+	width: 80%;
+	border-collapse: collapse;    
+	margin: 0 auto;
+	font-size: 15px;
+}
+
+article table, tr, th
+{
+	border: 2px solid #659cb3;
+	text-align: center;
+}
+
+article table th
+{
+	background-color: #659cb3;
+}
+
+article form textarea, input
+{
+	border:1px dotted #659cb3;
+	text-align: center;
+	width: 40%;
+	font-size:12px;	
+	height:25px;
+	resize: none;
+}
+
+article #contact-num{
+	color: #659cb3; 
+	text-align: center;
+	margin-top
+}
+
+article form textarea
+{
+	margin-bottom: 10px;
+}
+
+.banner-responsive
+{
+	width: 100%;
+	height: auto;
+}
+
+header 
+	{
+		position: relative;
+		background-color: #659cb3;
+		width: 100%;
+		margin: 0;
+		padding: 0;
+	}
+
+main #breadcrumbs
+{
+	border-radius: 7px;
+	background-color: rgba(202, 227, 238,0.3);
+	width: 100%;
+	color: #000;
+	margin-left: 5px;
+	font-size: 15px;
+}
+
+main #breadcrumbs a
+{
+	color: #000;
+	text-decoration: none;
+}
+	
+main #breadcrumbs :hover
+{
+	font-style: italic;
+	transition-duration: 0.5s;	
+}	
+
+#features
+{
+	box-sizing: border-box;
+	text-align: center;
+	padding: 0;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+.feature-boxes
+{
+	box-sizing: border-box;
+	background-color: rgba(202, 227, 238,0.3);
+	text-align: center;
+	display: inline-block;
+	width: 40%;
+	padding: 3px;
+	height: auto;
+}
+
+.feature-boxes h3
+{
+	font-size: 70%;
+}
+
+.feature-boxes img
+{
+	width: 20%;
+	height: auto;
+}
+
+.mob-div
+{
+	padding: 2px;
+}
+
+.container
+	{
+		margin: 0 auto;
+		max-width: 980px;
+		box-sizing: border-box; 
+	}
+
+header #logo
+	{
+		margin: 0;
+		padding: 4px 0px 3px 0px; 
+		display: inline-block;
+	}
+
+header #logo h1
+	{
+		text-decoration: none;
+		margin: 0;
+		padding: 0;
+		margin:5px 0px 0px 9px;
+		width:	150px;
+		height: 49px;
+		background: url("../graphics/bizma-logo-sm.png") top left no-repeat;
+		text-indent: -9999px;
+	}
+
+header nav{
+	margin:0; 
+	padding: 0; 
+	display: none;}
+
+header nav ul
+{
+
+	margin: 0;
+	padding: 0;
+	background: #296681;
+	list-style: none;
+}
+
+header nav ul li
+	{
+		padding: 0;
+		margin: 0;
+		display: block;
+	}
+
+header nav ul li a
+	{
+		display: block;
+		text-decoration: none;
+		color: #CAE3EE;
+		padding: 5px 10px;
+		margin: 0;
+		text-decoration: none;
+		color: #fff;
+	}
+
+header #mob-menu-btn
+	{
+
+		display: none; 	
+	}
+
+header #menu-label
+	{
+		right: 15px;
+		top: 10px;
+		position: absolute;
+		padding: 0;
+		margin: 0;
+		display: block;
+		width: 48px;
+		height: 48px;
+		background: url("../graphics/menu-btn-sm.png") top left no-repeat;
+	}
+
+header #mob-menu-btn[type = "checkbox"]:checked ~ nav { display: block; }
+
+.mob-menu-float
+{
+	float: left;
+}
+
+.clearall
+{
+	clear: both;
+}
+/*******FOOTER STARTS******************************************************/
+footer
+	{
+		box-sizing: border-box;
+		background-color: #659cb3;
+		width: 100%;
+		padding: 0;
+	}
+
+	footer h1
+	{
+		color:#296681;
+	}
+
+	footer .footer-links
+	{
+		padding: 2px;
+	}
+
+	footer .footer-info
+	{
+		box-sizing: border-box;
+		padding: 2%;
+	}
+
+	footer .social-logos ~ p
+	{
+		text-align: center;
+	}
+
+	footer .social-logos
+	{
+		color:#296681;
+		text-align: center;
+		box-sizing: border-box;
+		margin: 0;
+	}
+
+	footer .social-logos a
+	{
+		padding: 2px;
+	}
+
+	footer p 
+	{
+		text-align:center;
+		font-size: 15px;	
+	}
+	footer h1
+	{
+		text-align: center;
+		font-size: 25px;
+	}
+
+	footer h1 ~ ul
+	{
+		list-style: none;
+	}
+
+	footer h1 ~ ul li 
+	{
+		font-size: 25px;
+	}
+
+	footer ul li
+	{
+		list-style: none;
+	}
+	footer ul li a
+	{
+		text-decoration: none;
+		color: #fff;
+		font-size: 20px;
+		line-height: 120%;
+	}
+
+
+/*FOOTER ENDS*/
+
+
+@media(min-width: 768px)
+{
+
+	/*>>>>>>>>>>>>>>>>>>>>>>>>>>>INSURANCE PAGE STARTS<<<<<<<<<<<<<<<<<<<<<<<<<<<*/
+		#insurance-mainbox .text,#insurance-aside.text
+		{
+			font-weight: normal;
+			font-size: 15px;
+			text-align: left;
+		}
+
+			#insurance-aside ~ article div p
+		{
+			font-size: 20px;
+		}
+
+		#insurance-aside ~ article div img
+		{
+			width: 40%;
+			height: auto;
+		}
+
+		#insurance-aside
+		{ 
+			margin-bottom: 20px;
+			border:2px solid #659cb3;
+			-webkit-box-shadow: -5px 5px 5px 3px #659cb3;
+			box-shadow: -5px 5px 5px 3px #659cb3;
+			margin-left: 10px;
+			width: 30%;
+			display: inline-block;
+			border-radius: 5px;
+			padding: 5px; 
+			line-height: 1.4em;
+		}
+
+		#insurance-aside div
+		{
+			text-align: center;
+			background-color: rgba(202, 227, 238,0.3);
+		}
+
+		#insurance-aside div a
+		{
+			padding:3px;
+			border:2px solid #659cb3;
+			background-color: unset;
+		    font-size: 18px;
+		    color: #659cb3;
+		    text-align: center;
+		    text-decoration: none;
+		}
+
+		#insurance-aside .heading
+		{
+			line-height: 1em;
+			color: #659cb3;
+		}
+
+		#insurance-mainbox article
+		{
+			width: 80%;
+		}
+
+		#insurance-mainbox h3
+		{
+			color: #296681;
+		}
+
+		#insurance-mainbox
+		{
+			margin-left: 10px;
+			border-radius: 5px;
+			width: 60%;
+			display: inline-block;
+			text-align: left;
+			background-color: rgba(202, 227, 238,0.3);
+		}
+	/*>>>>>>>>>>>>>>>>>>>>>>>>>>>INSURANCE PAGE ENDS<<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+	/*>>>>>>>>>>>>>>>>>>>>.STARTUP LOANS START<<<<<<<<<<<<<<<<<<<<*/
+	#srtloans-banner
+	{
+		border: none;
+		width: 90%;
+		background: url("../graphics/startup-bannercontent.jpg") top center no-repeat;
+	}
+
+	#srtloans-banner #srt-textbox
+	{
+		font-weight: bold;
+		text-align: center;
+		margin: 0 auto;
+		width: 80%;
+		background-color: #fff;
+		opacity: 0.9;
+		padding: 3px;
+	}
+
+	#srt-contentbox .startup-features
+	{
+		list-style-type: circle;
+	}
+
+	#srt-contentbox .startup-features li
+	{
+		line-height: 2em;
+	}
+
+	#srt-contentbox h3
+	{
+		font-size: 20px;
+		color:#659cb3;
+	}
+
+	.container .srtpage-infobox
+	{
+		border:none;
+		width: 25%;
+		display: inline-block;
+		text-align: center;
+	}
+
+	#srt-contentbox ~ div
+	{
+		   text-align: center;
+    	margin: 20px auto;
+		text-align: center;
+	}
+
+
+	.srtpage-infobox .text
+	{
+		font-weight: normal;
+		font-size: 15px;
+	}
+
+	#srt-contentbox
+	{
+		-webkit-columns: auto ;
+ 	   -moz-columns: auto auto; 
+        columns: 2;
+        column-gap: 50px;
+		padding: 5px;
+	}
+
+	#srt-textbox h2
+	{	
+		font-size: 25px;
+	}
+
+	#srt-textbox p
+	{
+		font-size: 20px;
+	}
+
+	#srtpage-bottom
+	{
+		text-align: center;
+		margin: 10px auto;
+	}
+
+	#srtpage-bottom a
+	{
+		border:2px solid #659cb3;
+		background-color: unset;
+	    font-size: 25px;
+	    color: #659cb3;
+	    text-align: center;
+	    text-decoration: none;
+	}
+	
+	/*>>>>>>>>>>>>>>>>>>>STARTUP LOANS END<<<<<<<<<<<<<<<<<<<<<<<<*/
+
+	/*>>>>>>>>>>>>>>>>>>>>>>PARTNERS PAGE STARTS<<<<<<<<<<<<<<<<<<<<<<<*/
+	.partners-introbox p 
+	{
+		font-weight: normal;
+		font-size: 18px;
+	}
+	
+
+	#partners-banner
+	{
+		box-sizing: border-box;
+		width: 90%;
+		color: #fff;
+		background: -webkit-linear-gradient(left, #659cb3, #659cb3 50%, #296681 50%, #296681);
+		text-align: center;
+	}
+
+	#partners-banner h2
+	{
+		font-size: 20px;
+	}
+
+	#partners-banner .text
+	{
+		font-weight: normal;
+	}
+
+	.partners-box .bar-text
+	{
+		width: 100%;
+		height: auto;
+		color: #fff;
+		padding: 1px;
+		font-size:90%;
+		background-color: #296681;
+	}
+
+	.partners-box .partners-img
+	{
+		width:50%;
+		height: auto;
+	}
+
+	.partners-box
+	{
+		display: inline-block;
+		text-align: center;
+		box-sizing: border-box;
+		border: 2px solid #296681;
+		width:30%;
+		margin: 0 auto;
+		border-radius: 3px;
+	}
+
+	.partnerspage-contentbox
+	{ 
+		margin: 10px auto;
+		text-align: center;
+	}
+
+	/*>>>>>>>>>>>>>>>>>>>>>>PARTNERS PAGE ENDS<<<<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+	/*>>>>>>>>>>>>>>>>>>MENTORING PAGE STARTS<<<<<<<<<<<<<<<<<<<<*/
+	#search-mentor
+	{
+		background-color: rgba(202, 227, 238,0.3);
+		padding: 2px;
+		margin: 10px auto;	
+		width: 40%;
+		border:2px dashed #296681;
+	}
+
+	#search-mentor select
+	{
+		font-size: 15px;
+	}
+
+	#search-mentor #search-btn
+	{
+		border:none;
+		width: 40%;
+		color: #296681;
+	}
+
+	#search-mentor #search-btn:hover
+	{
+		background-color:rgba(202, 227, 238,0.3); 
+	}
+
+	#mentoring-intro
+	{
+		font-size: 35px;
+	}
+
+	.mentoring-topcontent
+	{
+		margin: 0;
+		padding: 1px;
+		color: #fff;
+		background-color: #659cb3;
+		width: 100%;
+		text-align: center;
+		height: 40%;
+		box-sizing: border-box;
+	}
+
+	.mentoring-facts p
+	{
+		font-size: 18px;
+	}
+	
+	.mentoring-facts
+	{	
+		display: inline-block;
+		border:none;
+		margin: 0 auto;
+		width:30%;
+	}
+
+	.mentoring-facts h2
+	{	
+		color:#296681;
+		font-size: 35px;
+	}
+
+	.mentoring-roundbox
+	{ 
+		color:#296681;
+		margin: 0 auto;
+		width: 50%;
+	}
+
+	#mentoring-intro ~ .text
+	{
+		font-size: 20px;
+	}
+
+	.mentoring-roundbox h3
+	{
+		font-size: 40px;
+	}
+
+	.mentoring-topcontent #mentoring-intro strong
+	{
+		color: #000;
+	}
+
+	#mentoring-steps
+	{
+		width: 70%;
+		color:#659cb3; 
+		border:none;
+		margin: 5px auto;
+	}
+
+	#mentoring-steps li 
+	{
+		font-size: 18px;
+	}
+
+	#mentoring-steps ~ article
+	{
+		text-align: center;
+	}
+
+	#mentoring-bannertext .text
+	{
+		text-align: left;
+	}
+
+	#mentoring-bannertext
+	{
+		margin: 0 auto;
+		width: 70%;
+		padding: 5px;
+	}
+
+	#mentoring-steps ~ article img
+	{
+		border:1px dashed #000;
+		border-radius: 50%;
+		width: 8%;
+		height: auto;
+	}
+
+/*>>>>>>>>>>>>>>>>>>MENTORING PAGE ENDS<<<<<<<<<<<<<<<<<<<<*/
+
+
+
+
+
+
+		/*>>>>>>>>>>>>>>>>>>>>>>>MONEY TRANSFER STARTS<<<<<<<<<<<<<<<<<<<<<*/
+	
+	#moneytransfer-body
+	{
+		
+		text-align: center;
+	}
+
+	.moneytransfer-box
+	{
+		box-shadow: none;
+		margin: 15px auto;
+		text-align: center;
+		padding: 5px;
+		display: inline-block;
+		width: 30%;	
+		padding: 3px;
+		background-color:rgba(202, 227, 238,0.3); 
+	}
+
+	.moneytransfer-box p
+	{
+		font-size: 13px;
+	}
+
+	.moneytransfer-details
+	{
+		display: inline-block;
+		border-top: 4px solid #659cb3;
+		width: 40%;
+		display: inline-block;
+		height: 20%;
+		padding: 2px;
+		border-color: #659cb3;
+    	border-width: 40px 1px 1px 1px;
+	}
+
+	.moneytransfer-details p 
+	{
+		font-size: 14px;
+	}
+
+	.moneytransfer-box h2
+	{
+		color: #296681;
+		font-size: 18px;
+	}
+
+	.moneytransfer-details h2
+	{
+		color: #296681;
+		font-size: 18px;
+	}
+
+	/*>>>>>>>>>>>>>>>>>>>>>>>MONEY TRANSFER ENDS<<<<<<<<<<<<<<<<<<<<<*/
+
+
+	/*>>>>>>>>>>>>>>>>>NEWSPAGE PAGE<<<<<<<<<<<<<<<<<*/
+	.datebox
+	{	
+		text-align: center;
+		color: #fff;
+		width:12%;
+		font-size: 5px;	
+		height: auto;
+		padding: 1px; 
+		background-color: #296681;
+		border:2px dashed #000;
+	}
+
+	#newspage-box
+	{
+		margin: 0 auto;
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+
+	#newspage-box img
+	{
+		width:30%;
+		height: auto;
+	}
+/*>>>>>>>>>>>>>>>>>NEWSPAGE END<<<<<<<<<<<<<<<<<*/
+
+	/***Feature Page Starts***/
+	.featurepage-box img
+	{
+		margin-left: 10px;
+		float: left;
+		width: 20%;
+		height: auto;
+	}
+
+	.featurepage-box
+	{
+		text-align: center;
+		box-sizing: border-box;
+		margin: 0 auto;
+	}
+
+	.featurepage-box p
+	{
+		font-size: 20px;
+	}
+
+	.featurepage-submenus
+	{
+		width: 50%;
+		text-align: center;
+		margin: 3px auto;
+		border:none;
+		text-decoration: none;
+	}
+	
+	.featurepage-submenus:hover
+	{
+		background-color: #659cb3;
+		transition-duration: 0.5s;
+		border-left: 1px solid #000;
+		border-right: 1px solid #000;
+		color: #fff;
+	}
+	.featurepage-submenus a
+	{
+		text-decoration: none;
+		color: #154360;
+	}
+
+	#featurepage-description
+	{
+		text-align: center;
+	}
+
+		#featurepage-description p h2
+	{
+		color: #659cb3;
+	}
+
+	.featurepage-smallboxes
+	{
+		margin: 0 auto;
+		width: 25%;
+		padding: 3px;
+		text-align: center;
+		display: inline-block;
+		border-top: 10px solid #659cb3;
+		border-left:1px solid #000;
+		border-bottom:1px solid #000;
+		border-right:1px solid #000;
+	}
+
+	#featurepage-boxalign
+	{
+		text-align: center;
+		margin: 20px auto;
+	}
+
+	/***FeaturePage Ends***/
+
+	#loanpage-body a
+	{
+		color: #fff;
+		text-decoration: none;
+	}
+
+	#loanpage-body a
+	{
+		background-color: #659cb3;
+		padding: 10px;
+		margin: 0;
+		border:none;
+		font-size: 22px;
+	}
+
+	.loanpage-contentbox
+	{
+		margin: 5px auto;
+		box-sizing: border-box;
+		padding: 2px;
+		font-size: 20px;
+		display: block;
+		width: 70%;
+		height: 50%;
+		color:#fff;
+		background-color: #659cb3;
+	}
+
+
+	#loanpage-body img
+	{
+		width: 80%;
+		height: auto;
+	}
+
+	.radio-btn
+	{
+		height: 20px;
+	}
+
+	form .select-box
+	{
+		width: 20%;
+		height: 40px;
+		font-size:20px;
+	}
+
+	article form input
+	{
+		font-size: 22px;
+		text-align: center;
+		width: 40%;	
+		height: 35px;
+	}
+
+	article form textarea
+	{
+		font-size: 15px;
+		resize: none;
+	}
+
+	article p
+	{
+		font-size: 25px;
+		font-weight: bold;
+	}
+
+	article table th
+	{
+		font-size:20px;
+		background-color: #95C1D4;
+		border:none;
+		text-align: center;
+	}
+
+article table
+{
+	font-size: 18px;
+}
+
+
+header p
+{
+	font-size: 15px;
+	text-align: center;
+}
+
+	.announcement  a 
+{
+	border-radius: 3px;
+	border:1px solid #fff;
+	padding: 1px;
+	width: 30%;
+	height: auto;
+	background-color:transparent;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+	.feature-boxes h3
+{
+	font-size: 15px;
+}
+
+#features
+{
+	text-align: center;
+	margin-top:10px;
+	padding: 0;
+	width: 100%;
+}
+
+.feature-boxes
+{
+	background-color: rgba(202, 227, 238,0.3);
+	text-align: center;
+	padding: 1%;
+	display: inline-block;
+	width: 40%;
+	height: auto;
+}
+
+.feature-boxes:hover
+{
+	background-color: #95C1D4;
+}
+
+
+.feature-boxes img
+{
+	width: 15%;
+	height: auto;
+}
+
+/*MAIN ELEMENTS*/
+	
+
+.heading
+{
+	color:  #659cb3;
+	font-size: 30px;
+}
+
+.container article
+{
+	border-top: 1px solid #659cb3;	
+	margin: 0 auto;
+	padding: 1%;
+}
+
+
+
+	/***********FOOTER STARTS****************/
+
+	footer .social-logos ~ p
+	{
+		text-align: center;
+	}
+
+	footer .social-logos
+	{
+		border-top: 1px dotted #000;
+		padding: 4px;
+		margin: 0;
+	}
+
+	footer .social-logos a
+	{
+		padding: 5px;
+	}
+
+	footer .social-logos h2
+	{
+		font-size: 25px;
+	}
+
+	footer p
+	{
+		text-align: left;
+		font-size: 18px;	
+	}
+	footer h1
+	{
+		text-align: left;
+		font-size: 30px;
+	}
+
+	footer h1 ~ ul
+	{
+		list-style: none;
+	}
+
+	footer h1 ~ ul li 
+	{
+		font-size: 25px;
+	}
+
+	footer ul li
+	{
+		list-style: none;
+	}
+
+	footer ul li a
+	{
+		text-decoration: none;
+		color: #fff;
+		font-size: 20px;
+		line-height: 120%;
+	}
+
+	footer ul li :hover
+	{
+		
+		transition-duration: 0.9s;
+		color:#123652;
+	}
+
+	.footer-info
+	{
+	 -webkit-columns: auto ;
+ 	   -moz-columns: auto auto; 
+        columns: 3;
+        column-gap: 50px;
+	}
+
+/***********FOOTER ENDS****************/
+
+
+	.mob-div
+	{
+		padding: 0;
+	}
+
+	.mob-menu-float
+	{
+		float: none;
+	}
+
+	header #menu-label
+	{
+		display: none; 	
+	}
+
+	header nav
+	{	
+		margin: 0;
+		padding: 0;
+		width: 100%;
+		display: inline-block;
+	}
+
+	header
+	{
+		text-align: center;
+	}
+
+	header #logo h1
+	{
+		text-decoration: none;
+		margin: 0;
+		padding: 0;
+		width:	150px;
+		height: 89px;
+		background: url("../graphics/bizma-logo-md.png") top center no-repeat;
+		text-indent: -9999px;
+	}
+
+	header nav ul
+	{		
+		margin: 0;
+		padding: 0;
+		border-top: 2px solid #000;
+	}
+
+	header nav ul li
+	{
+		font-size: 25px;
+		display: inline-block;
+	}
+
+	header nav ul li a
+	{
+		display: inline-block;
+	}
+
+	#register-info
+{
+	border-radius: 20px;
+	width: 40%;
+	padding: 2px;
+	margin:0 auto;
+}
+}
+
+
+@media(min-width: 1024px)
+{
+
+		#insurance-aside ~ article div:hover
+		{
+			border-radius: 10px;
+			transition-duration: 0.5s;
+			background-color: 	rgba(202, 227, 238,0.9);			
+		}
+
+	#srtpage-bottom a:hover
+	{
+		color: #000;
+		transition-duration: 0.5s;
+		background-color: rgba(202, 227, 238,0.9);
+	}
+
+	/*>>>>>>>>>>>>>>>>>>PARTNERS PAGE<<<<<<<<<<<<<<<<<*/
+	.partners-box:hover
+	{
+		opacity: 0.7;
+		transition-duration: 0.4s;
+		border: 2px solid rgba(202, 227, 238,0.9);
+		border-radius: 5px;
+	}
+	/*>>>>>>>>>>>>>>>>>>>>>>>>>PARTNERS PAGE END<<<<<<<<<<<<<<<<<<<*/
+
+	/*MENTORING PAGE*/
+	.mentoring-facts:hover
+	{ 
+		transition-duration: 0.5s;
+		background-color: rgba(202, 227, 238,0.3);
+	}
+
+	.mentoring-roundbox : hover
+	{	
+		transition-duration: 0.5s;
+		background-color: #296681;
+	}
+
+
+	/*<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>*/
+
+	.datebox
+	{	
+		text-align: center;
+		color: #fff;
+		width:12%;
+		font-size: 5px;	
+		height: auto;
+		padding: 1px; 
+		background-color: #296681;
+		border:2px dashed #000;
+	}
+
+	#newspage-box
+	{
+		margin: 0 auto;
+		box-sizing: border-box;
+		text-align: center;
+	}
+
+	#newspage-box .newspage-contentbox p
+	{
+		font-style: normal;
+		font-size: 20px;
+	}
+
+	#newspage-box .newspage-contentbox p, .newspage-contentbox .heading
+	{
+		margin: 0;
+		text-align: left;
+	}
+
+	#newspage-box img
+	{
+		width:30%;
+		height: auto;
+	}
+/*>>>>>>>>>>>>>>>>>NEWSPAGE END<<<<<<<<<<<<<<<<<*/
+
+
+
+
+	/*>>>>>>>>>>>>>>>>>>>>>Plans Page Start<<<<<<<<<<<<<<<<<<*/
+
+	#link-btn
+	{
+		font-size: 20px;
+		border-radius: 0px;
+		width: 15%;
+	}
+
+	#link-btn a:hover
+	{
+		font-weight: bold;
+		color: #296681;
+	}
+
+	#planspage-clientsbox img
+	{
+		width: 30%;
+		height: auto;
+		border-radius: 100%;
+	}
+
+	#planspage-clientsbox article
+	{
+		border:none;
+		display: inline-block;
+		width: 45%;
+		text-align: center;
+	}
+	/*>>>>>>>>>>>>>>>>>>>>>Plans Page Ends<<<<<<<<<<<<<<<<<<*/
+
+
+
+	.loanpage-contentbox h3
+	{
+		font-size: 30px;
+	}
+
+	.loanpage-contentbox h3:hover
+	{
+		background-color: #fff;
+		color: #659cb3;
+		transition-duration: 0.5s;
+	}
+
+	
+	.loanpage-contentbox
+	{
+		box-sizing: border-box;
+		padding: 10px;
+		font-size: 20px;
+		display: inline-block;
+		width:40%;
+		height: 40%;
+		color:#fff;
+		background-color: #659cb3;
+	}
+
+#register-info
+{
+	border-radius: 20px;
+	width: 40%;
+	padding: 2px;
+	margin:0 auto;
+}
+
+article form textarea, input
+{
+	border:1px dotted #659cb3;
+	text-align: center;
+	width: 35%;
+	font-size:27px;	
+	height:40px;
+	resize: none;
+}
+
+.announcement a:hover
+{
+	border-radius: 3px;
+	border:1px solid #659cb3;
+	color: #659cb3;
+	transition-duration: 0.5s;
+}
+
+
+.announcement  a 
+{
+	border-radius: 3px;
+	border:1px solid #fff;
+	padding: 1px;
+	width: 30%;
+	height: auto;
+	background-color:transparent;
+	font-size: 25px;
+	text-decoration: none;
+}
+
+.feature-boxes h3
+{
+	font-size: 20px;
+}
+
+
+.feature-boxes
+{
+	background-color: rgba(202, 227, 238,0.3);
+	text-align: center;
+	padding: 1%;
+	display: inline-block;
+	width: 30%;
+	height: auto;
+	padding-left: 2%;
+}
+
+.text
+	{
+		font-weight: normal;
+		text-align: center;
+		font-size: 18px;
+	}
+
+.heading
+	{
+		color:  #659cb3;
+		font-size: 35px;
+	}
+
+	.container .col-md-2
+	{
+		box-sizing: border-box;
+		background-color: rgba(202, 227, 238,0.3);
+		padding:1%;
+		margin: 0 auto;
+		margin-top:2%; 
+		-moz-column-count: 2;
+		-moz-column-gap: 10px;
+		-webkit-column-count: 2;
+		-webkit-column-gap: 10px;
+		column-count: 2;
+		column-gap: 10px;
+	}
+
+	header nav ul li a:hover
+	{
+		transition-duration: 0.6s;
+		color:#296681;
+		background: #95C1D4;
+	}
+
+	footer
+	{
+		margin: 0;
+		padding:0;
+	}
+
+	footer .footer-links
+	{
+		padding: 0%;
+	}
+
+	footer .footer-info
+	{
+		padding: 0%;
+	}
+}
